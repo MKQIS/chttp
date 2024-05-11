@@ -7,7 +7,7 @@ package fcgi
 import (
 	"bytes"
 	"errors"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"strings"
 	"testing"

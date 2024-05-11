@@ -12,7 +12,7 @@ import (
 	"errors"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"net"
 	"net/url"

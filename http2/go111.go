@@ -8,7 +8,7 @@
 package http2
 
 import (
-	"github.com/wangluozhe/chttp/httptrace"
+	"github.com/ynetpkg/chttp/httptrace"
 	"net/textproto"
 )
 

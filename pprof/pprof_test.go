@@ -7,8 +7,8 @@ package pprof
 import (
 	"bytes"
 	"fmt"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptest"
+	"github.com/ynetpkg/chttp"
+	"github.com/ynetpkg/chttp/httptest"
 	"internal/profile"
 	"internal/testenv"
 	"io"

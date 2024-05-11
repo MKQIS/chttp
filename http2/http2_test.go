@@ -9,7 +9,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io/ioutil"
 	"os"
 	"os/exec"
@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wangluozhe/chttp/http2/hpack"
+	"github.com/ynetpkg/chttp/http2/hpack"
 )
 
 var knownFailing = flag.Bool("known_failing", false, "Run known-failing tests.")

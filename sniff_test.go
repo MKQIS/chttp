@@ -7,7 +7,7 @@ package http_test
 import (
 	"bytes"
 	"fmt"
-	. "github.com/wangluozhe/chttp"
+	. "github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"reflect"

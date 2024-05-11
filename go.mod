@@ -1,4 +1,4 @@
-module github.com/wangluozhe/chttp
+module github.com/ynetpkg/chttp
 
 go 1.20
 

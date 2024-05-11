@@ -10,7 +10,7 @@ import (
 	"expvar"
 	"flag"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"os"

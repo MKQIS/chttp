@@ -25,7 +25,7 @@ Later:
 ## Installation
 
 ```
-$ go install github.com/wangluozhe/chttp/http2/h2i@latest
+$ go install github.com/ynetpkg/chttp/http2/h2i@latest
 $ h2i <host>
 ```
 

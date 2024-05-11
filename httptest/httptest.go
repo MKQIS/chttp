@@ -9,7 +9,7 @@ import (
 	"bufio"
 	"bytes"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"strings"
 )

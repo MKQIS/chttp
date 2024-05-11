@@ -17,7 +17,7 @@ package cgi
 import (
 	"bufio"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"net"

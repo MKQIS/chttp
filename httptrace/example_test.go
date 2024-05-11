@@ -6,8 +6,8 @@ package httptrace_test
 
 import (
 	"fmt"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptrace"
+	"github.com/ynetpkg/chttp"
+	"github.com/ynetpkg/chttp/httptrace"
 	"log"
 )
 

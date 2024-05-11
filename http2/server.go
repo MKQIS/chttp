@@ -32,7 +32,7 @@ import (
 	"errors"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"math"
@@ -47,7 +47,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wangluozhe/chttp/http2/hpack"
+	"github.com/ynetpkg/chttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 )
 

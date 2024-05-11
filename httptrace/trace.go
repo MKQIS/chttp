@@ -9,7 +9,7 @@ package httptrace
 import (
 	"context"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp/internal/nettrace"
+	"github.com/ynetpkg/chttp/internal/nettrace"
 	"net"
 	"net/textproto"
 	"reflect"

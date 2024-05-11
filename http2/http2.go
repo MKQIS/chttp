@@ -13,13 +13,13 @@
 // See https://http2.github.io/ for more information on HTTP/2.
 //
 // See https://http2.golang.org/ for a test server running this code.
-package http2 // import "github.com/wangluozhe/chttp/http2"
+package http2 // import "github.com/ynetpkg/chttp/http2"
 
 import (
 	"bufio"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"os"
 	"sort"

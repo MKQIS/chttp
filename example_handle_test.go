@@ -6,7 +6,7 @@ package http_test
 
 import (
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"log"
 	"sync"
 )

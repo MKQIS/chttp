@@ -14,7 +14,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"net"
@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/wangluozhe/chttp/http2"
+	"github.com/ynetpkg/chttp/http2"
 	"golang.org/x/net/http/httpguts"
 )
 

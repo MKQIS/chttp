@@ -5,7 +5,7 @@
 package http2
 
 import (
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"sync"
 )
 

@@ -7,7 +7,7 @@ package http_test
 import (
 	"context"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"os"
