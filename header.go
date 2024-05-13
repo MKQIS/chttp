@@ -270,6 +270,9 @@ func (h Header) writeSubset(w io.Writer, exclude map[string]bool, trace *httptra
 	var kvs []HeaderKeyValues
 	var sorter *headerSorter
 
+	if exclude == nil {
+		exclude = make(map[string]bool)
+	}
 	mutex.Lock()
 	exclude[HeaderOrderKey] = true
 	exclude[PHeaderOrderKey] = true
@@ -281,9 +284,6 @@ func (h Header) writeSubset(w io.Writer, exclude map[string]bool, trace *httptra
 		order := make(map[string]int)
 		for i, v := range headerOrder {
 			order[strings.ToLower(v)] = i
-		}
-		if exclude == nil {
-			exclude = make(map[string]bool)
 		}
 		kvs, sorter = h.SortedKeyValuesBy(order, exclude)
 	} else {
