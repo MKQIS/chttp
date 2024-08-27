@@ -7,11 +7,11 @@ package http2
 import (
 	"bytes"
 	"fmt"
-	"github.com/ynetpkg/chttp"
+	"github.com/mkqis/chttp"
 	"log"
 	"net/url"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 )
 

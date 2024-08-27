@@ -7,9 +7,9 @@ package h2c
 import (
 	"context"
 	"fmt"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/httptest"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/httptest"
 	"io"
 	"io/ioutil"
 	"log"
@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ynetpkg/chttp/http2"
+	"github.com/mkqis/chttp/http2"
 )
 
 func ExampleNewHandler() {

@@ -35,7 +35,7 @@ import (
 	"math"
 	mathrand "math/rand"
 	"net"
-	"github.com/ynetpkg/chttp/httptrace"
+	"github.com/mkqis/chttp/httptrace"
 	"net/textproto"
 	"net/url"
 	"os"
@@ -49,7 +49,7 @@ import (
 	"time"
 
 	"golang.org/x/net/http/httpguts"
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 	"golang.org/x/net/idna"
 )
 

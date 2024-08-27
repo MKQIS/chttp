@@ -8,8 +8,8 @@ package httptest
 import (
 	"bufio"
 	"bytes"
+	"github.com/mkqis/chttp"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
 	"io"
 	"strings"
 )

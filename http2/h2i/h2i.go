@@ -27,8 +27,8 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/mkqis/chttp"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"net"
@@ -37,8 +37,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ynetpkg/chttp/http2"
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2"
+	"github.com/mkqis/chttp/http2/hpack"
 	"golang.org/x/term"
 )
 

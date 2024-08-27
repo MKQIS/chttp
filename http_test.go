@@ -8,7 +8,7 @@ package http
 
 import (
 	"bytes"
-	"github.com/ynetpkg/chttp/internal/testenv"
+	"github.com/mkqis/chttp/internal/testenv"
 	"io/fs"
 	"net/url"
 	"os"

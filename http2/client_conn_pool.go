@@ -9,8 +9,8 @@ package http2
 import (
 	"context"
 	"errors"
+	"github.com/mkqis/chttp"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
 	"sync"
 )
 

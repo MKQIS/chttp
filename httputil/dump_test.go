@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/ynetpkg/chttp"
+	"github.com/mkqis/chttp"
 	"io"
 	"math/rand"
 	"net/url"

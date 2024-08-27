@@ -12,7 +12,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	. "github.com/ynetpkg/chttp"
+	. "github.com/mkqis/chttp"
 	"io"
 	"math"
 	"mime/multipart"

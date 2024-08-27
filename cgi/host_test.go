@@ -9,8 +9,8 @@ package cgi
 import (
 	"bufio"
 	"fmt"
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/httptest"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/httptest"
 	"io"
 	"net"
 	"os"

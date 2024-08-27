@@ -3,7 +3,7 @@ package http_test
 import (
 	"errors"
 	"fmt"
-	. "github.com/ynetpkg/chttp"
+	. "github.com/mkqis/chttp"
 	"io"
 	"os"
 	"sync"

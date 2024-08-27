@@ -9,8 +9,8 @@ package http
 import (
 	"bytes"
 	"errors"
+	"github.com/mkqis/chttp/internal/testcert"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp/internal/testcert"
 	"io"
 	"net"
 	"strings"

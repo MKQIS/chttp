@@ -7,7 +7,7 @@ package http
 import (
 	"errors"
 	"fmt"
-	"github.com/ynetpkg/chttp/internal/ascii"
+	"github.com/mkqis/chttp/internal/ascii"
 	"log"
 	"net"
 	"net/textproto"

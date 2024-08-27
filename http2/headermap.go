@@ -5,7 +5,7 @@
 package http2
 
 import (
-	"github.com/ynetpkg/chttp"
+	"github.com/mkqis/chttp"
 	"sync"
 )
 

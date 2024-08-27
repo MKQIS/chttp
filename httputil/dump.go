@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/ynetpkg/chttp"
+	"github.com/mkqis/chttp"
 	"io"
 	"net"
 	"net/url"

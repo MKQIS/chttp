@@ -10,7 +10,7 @@ import (
 	"compress/gzip"
 	"crypto/rand"
 	"fmt"
-	"github.com/ynetpkg/chttp/internal"
+	"github.com/mkqis/chttp/internal"
 	"go/token"
 	"io"
 	"net/url"

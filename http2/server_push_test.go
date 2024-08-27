@@ -7,7 +7,7 @@ package http2
 import (
 	"errors"
 	"fmt"
-	"github.com/ynetpkg/chttp"
+	"github.com/mkqis/chttp"
 	"io"
 	"io/ioutil"
 	"reflect"

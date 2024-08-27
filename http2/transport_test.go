@@ -13,10 +13,10 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/httptest"
+	"github.com/mkqis/chttp/httptrace"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/httptest"
-	"github.com/ynetpkg/chttp/httptrace"
 	"io"
 	"io/fs"
 	"io/ioutil"
@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 )
 
 var (

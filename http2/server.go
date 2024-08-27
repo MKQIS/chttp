@@ -31,8 +31,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/mkqis/chttp"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
 	"io"
 	"log"
 	"math"
@@ -47,7 +47,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 )
 

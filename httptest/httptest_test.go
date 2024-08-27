@@ -5,8 +5,8 @@
 package httptest
 
 import (
+	"github.com/mkqis/chttp"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
 	"io"
 	"net/url"
 	"reflect"

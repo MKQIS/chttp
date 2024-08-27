@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 )
 

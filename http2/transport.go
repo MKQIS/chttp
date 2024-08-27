@@ -14,9 +14,9 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/httptrace"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/httptrace"
 	"io"
 	"io/fs"
 	"log"
@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

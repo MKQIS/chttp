@@ -12,9 +12,9 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/httptest"
 	tls "github.com/refraction-networking/utls"
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/httptest"
 	"io"
 	"io/ioutil"
 	"log"
@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 )
 
 var stderrVerbose = flag.Bool("stderr_verbose", false, "Mirror verbosity to stderr, unbuffered")

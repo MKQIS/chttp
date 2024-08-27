@@ -15,7 +15,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/ynetpkg/chttp/http2/hpack"
+	"github.com/mkqis/chttp/http2/hpack"
 )
 
 // http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07#appendix-B

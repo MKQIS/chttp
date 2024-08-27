@@ -7,7 +7,7 @@
 package httputil
 
 import (
-	"github.com/ynetpkg/chttp/internal"
+	"github.com/mkqis/chttp/internal"
 	"io"
 )
 

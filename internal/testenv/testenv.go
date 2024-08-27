@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ynetpkg/chttp/internal/cfg"
+	"github.com/mkqis/chttp/internal/cfg"
 )
 
 // Builder reports the name of the builder running this test

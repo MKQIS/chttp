@@ -6,7 +6,7 @@ package httptest
 
 import (
 	"fmt"
-	"github.com/ynetpkg/chttp"
+	"github.com/mkqis/chttp"
 	"io"
 	"testing"
 )
